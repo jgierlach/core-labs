@@ -181,6 +181,62 @@
 </section>
 <!-- OUR BUSINESSES SECTION ENDS -->
 
+<!-- LATEST VIDEOS SECTION BEGINS -->
+<section
+	id="latest-videos"
+	class="bg-gradient-to-br from-gray-100 to-gray-200 py-20 dark:from-gray-900 dark:to-gray-800"
+>
+	<div class="container mx-auto px-6 text-center lg:px-12">
+		<h2 class="mb-12 text-5xl font-bold text-gray-900 dark:text-white">🎥 Latest Videos</h2>
+
+		<!-- Video Grid -->
+		<div class="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+			<!-- Video 1 -->
+			<div
+				class="group relative overflow-hidden rounded-xl shadow-lg transition-all duration-300 hover:scale-105"
+			>
+				<iframe
+					class="h-64 w-full rounded-xl"
+					src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+					title="YouTube video player"
+					frameborder="0"
+					allowfullscreen
+				>
+				</iframe>
+			</div>
+
+			<!-- Video 2 -->
+			<div
+				class="group relative overflow-hidden rounded-xl shadow-lg transition-all duration-300 hover:scale-105"
+			>
+				<iframe
+					class="h-64 w-full rounded-xl"
+					src="https://www.youtube.com/embed/3JZ_D3ELwOQ"
+					title="YouTube video player"
+					frameborder="0"
+					allowfullscreen
+				>
+				</iframe>
+			</div>
+
+			<!-- Video 3 -->
+			<div
+				class="group relative overflow-hidden rounded-xl shadow-lg transition-all duration-300 hover:scale-105"
+			>
+				<iframe
+					class="h-64 w-full rounded-xl"
+					src="https://www.youtube.com/embed/ysz5S6PUM-U"
+					title="YouTube video player"
+					frameborder="0"
+					allowfullscreen
+				>
+				</iframe>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- LATEST VIDEOS SECTION ENDS -->
+
 <!-- I CAN HELP YOUR BUSINESS SECTION BEGINS -->
 <section
 	id="help-your-business"
