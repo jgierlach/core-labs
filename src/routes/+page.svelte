@@ -181,6 +181,90 @@
 </section>
 <!-- OUR BUSINESSES SECTION ENDS -->
 
+<!-- CONNECT WITH ME ON SOCIALS SECTION BEGINS -->
+<section
+	id="connect-socials"
+	class="bg-gradient-to-br from-gray-100 to-gray-200 py-16 dark:from-gray-900 dark:to-gray-800"
+>
+	<div class="container mx-auto px-6 text-center lg:px-12">
+		<h2 class="mb-10 text-5xl font-bold text-gray-900 dark:text-white">
+			🤝 Connect With Me On Socials
+		</h2>
+
+		<!-- Social Media Icons -->
+		<div class="flex justify-center space-x-6">
+			<!-- X (Twitter) -->
+			<a
+				href="https://twitter.com/"
+				target="_blank"
+				class="group flex h-16 w-16 items-center justify-center rounded-full bg-white/70 p-4 shadow-lg backdrop-blur-md transition-transform duration-300 hover:scale-110 hover:bg-gray-800"
+			>
+				<svg
+					class="h-8 w-8 text-gray-800 transition duration-300 group-hover:text-white"
+					fill="currentColor"
+					viewBox="0 0 24 24"
+				>
+					<path
+						d="M23.64 4.56c-.87.39-1.8.66-2.78.78a4.92 4.92 0 0 0 2.17-2.7 9.75 9.75 0 0 1-3.1 1.2A4.92 4.92 0 0 0 16.5 3a4.91 4.91 0 0 0-4.91 4.91c0 .39.04.78.13 1.15a13.94 13.94 0 0 1-10.1-5.13A4.86 4.86 0 0 0 2.1 8.6a4.88 4.88 0 0 1-2.22-.6v.06a4.91 4.91 0 0 0 3.94 4.81c-.44.12-.9.19-1.37.19-.34 0-.67-.03-1-.1a4.92 4.92 0 0 0 4.6 3.42 9.86 9.86 0 0 1-6.1 2.1c-.4 0-.79-.02-1.18-.07a14 14 0 0 0 7.55 2.21c9.06 0 14.01-7.52 14.01-14.03l-.02-.64A10.1 10.1 0 0 0 24 4.92c-.9.4-1.87.67-2.87.78a5.1 5.1 0 0 0 2.2-2.78z"
+					></path>
+				</svg>
+			</a>
+
+			<!-- Instagram -->
+			<a
+				href="https://instagram.com/"
+				target="_blank"
+				class="group flex h-16 w-16 items-center justify-center rounded-full bg-white/70 p-4 shadow-lg backdrop-blur-md transition-transform duration-300 hover:scale-110 hover:bg-pink-500"
+			>
+				<svg
+					class="h-8 w-8 text-gray-800 transition duration-300 group-hover:text-white"
+					fill="currentColor"
+					viewBox="0 0 24 24"
+				>
+					<path
+						d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0-2A7.5 7.5 0 0 0 0 7.5v9A7.5 7.5 0 0 0 7.5 24h9A7.5 7.5 0 0 0 24 16.5v-9A7.5 7.5 0 0 0 16.5 0h-9z"
+					></path>
+				</svg>
+			</a>
+
+			<!-- LinkedIn -->
+			<a
+				href="https://linkedin.com/"
+				target="_blank"
+				class="group flex h-16 w-16 items-center justify-center rounded-full bg-white/70 p-4 shadow-lg backdrop-blur-md transition-transform duration-300 hover:scale-110 hover:bg-blue-600"
+			>
+				<svg
+					class="h-8 w-8 text-gray-800 transition duration-300 group-hover:text-white"
+					fill="currentColor"
+					viewBox="0 0 24 24"
+				>
+					<path
+						d="M20.45 20.45h-3.74v-5.78c0-1.37-.02-3.13-1.91-3.13-1.92 0-2.21 1.5-2.21 3.03v5.88h-3.74V9h3.59v1.56h.05c.5-.95 1.71-1.96 3.51-1.96 3.76 0 4.46 2.47 4.46 5.67v6.18zM4.55 7.43a2.15 2.15 0 1 1 0-4.3 2.15 2.15 0 0 1 0 4.3zm-1.88 13.02h3.76V9H2.67v11.45z"
+					></path>
+				</svg>
+			</a>
+
+			<!-- YouTube -->
+			<a
+				href="https://youtube.com/"
+				target="_blank"
+				class="group flex h-16 w-16 items-center justify-center rounded-full bg-white/70 p-4 shadow-lg backdrop-blur-md transition-transform duration-300 hover:scale-110 hover:bg-red-600"
+			>
+				<svg
+					class="h-8 w-8 text-gray-800 transition duration-300 group-hover:text-white"
+					fill="currentColor"
+					viewBox="0 0 24 24"
+				>
+					<path
+						d="M23.49 6.27c-.27-1.06-1.12-1.9-2.18-2.18C19.4 3.6 12 3.6 12 3.6s-7.4 0-9.31.48c-1.06.27-1.9 1.12-2.18 2.18C0 8.18 0 12 0 12s0 3.82.5 5.73c.27 1.06 1.12 1.9 2.18 2.18 1.91.5 9.31.5 9.31.5s7.4 0 9.31-.5c1.06-.27 1.9-1.12 2.18-2.18.5-1.91.5-5.73.5-5.73s0-3.82-.5-5.73zm-13.99 9.8v-7.27l6.44 3.64-6.44 3.63z"
+					></path>
+				</svg>
+			</a>
+		</div>
+	</div>
+</section>
+<!-- CONNECT WITH ME ON SOCIALS SECTION ENDS -->
+
 <!-- CONTACT US SECTION BEGINS -->
 <section id="contact" class="bg-gradient-to-r from-blue-500 to-indigo-600 py-16 dark:bg-gray-900">
 	<div class="container mx-auto px-6 lg:px-8">
