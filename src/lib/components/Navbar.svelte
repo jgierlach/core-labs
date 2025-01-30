@@ -1,8 +1,6 @@
 <script>
 	import { page } from '$app/state'; // Correct import for $page store
 
-	// export let isUserLoggedIn = false;
-
 	let menuOpen = false;
 	let theme = 'light';
 
