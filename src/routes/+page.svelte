@@ -60,6 +60,14 @@
 	}
 </script>
 
+<svelte:head>
+	<title>Core Labs</title>
+	<meta
+		property="description"
+		content="Core Labs | The team to bring your next application to life"
+	/>
+</svelte:head>
+
 <!-- ABOUT SECTION BEGINS -->
 <div
 	class="bg-gradient-to-b from-gray-50 to-gray-100 py-16 dark:from-gray-900 dark:to-gray-800"
