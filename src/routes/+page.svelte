@@ -89,92 +89,93 @@
 <!-- ABOUT SECTION ENDS -->
 
 <!-- OUR BUSINESSES SECTION BEGINS -->
-<section id="our-businesses" class="bg-gray-100 py-16 dark:bg-gray-800">
-	<div class="container mx-auto px-6 lg:px-8">
-		<h2 class="text-center text-5xl font-extrabold text-gray-900 dark:text-white">
-			Our Businesses
-		</h2>
+<section
+	id="our-businesses"
+	class="bg-gradient-to-br from-gray-100 to-gray-200 py-20 dark:from-gray-900 dark:to-gray-800"
+>
+	<div class="container mx-auto px-6 text-center lg:px-12">
+		<h2 class="mb-12 text-5xl font-bold text-gray-900 dark:text-white">🚀 Our Businesses</h2>
 
 		<!-- Business Cards Grid -->
-		<div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-			<!-- Example Business Item -->
-			<div class="rounded-lg bg-white p-6 shadow-md dark:bg-gray-900">
-				<!-- Business Logo Placeholder -->
-				<div class="flex justify-center">
-					<div class="h-24 w-24 overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700">
-						<!-- Replace with actual logo -->
-						<img src="/logos/osc-logo.png" alt="Business Logo" class="h-full w-full object-cover" />
-					</div>
+		<div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+			<!-- Business Card -->
+			<div
+				class="group relative rounded-3xl bg-white/70 p-8 shadow-xl backdrop-blur-md transition-all duration-300 hover:scale-105 hover:shadow-2xl dark:bg-gray-900/70"
+			>
+				<!-- Business Logo -->
+				<div
+					class="mx-auto mb-6 h-24 w-24 overflow-hidden rounded-full bg-gray-200 ring-4 ring-indigo-500 transition duration-300 group-hover:ring-purple-500 dark:bg-gray-700"
+				>
+					<img src="/logos/osc-logo.png" alt="Business Logo" class="h-full w-full object-cover" />
 				</div>
 
 				<!-- Business Details -->
-				<div class="mt-4 text-center">
-					<h3 class="text-2xl font-semibold text-gray-800 dark:text-white">
-						Online Seller Consulting
-					</h3>
-					<p class="mt-2 text-lg text-gray-600 dark:text-gray-400">
-						Monthly Revenue: <span class="font-semibold text-gray-900 dark:text-white">$50,000</span
-						>
-					</p>
-				</div>
-				<div class="mt-5 flex justify-center text-center">
+				<h3 class="text-2xl font-semibold text-gray-800 dark:text-white">
+					Online Seller Consulting
+				</h3>
+				<p class="mt-2 text-lg text-gray-600 dark:text-gray-300">
+					Monthly Revenue: <span class="font-semibold text-gray-900 dark:text-white">$50,000</span>
+				</p>
+
+				<!-- Button -->
+				<div class="mt-6">
 					<a
 						href="https://www.onlinesellerconsulting.com/"
 						target="_blank"
-						class="w-full transform rounded-lg bg-gradient-to-r from-blue-500 to-indigo-600 px-8 py-4 text-lg font-medium text-white shadow-lg transition-transform hover:scale-105 hover:bg-purple-700 focus:ring-4 focus:ring-purple-300 dark:focus:ring-purple-800"
-						>Learn More</a
+						class="btn btn-lg w-full bg-gradient-to-r from-indigo-500 to-blue-500 text-white shadow-lg transition-transform duration-300 hover:scale-105 hover:from-purple-500 hover:to-pink-500"
 					>
+						Learn More 🚀
+					</a>
 				</div>
 			</div>
 
-			<!-- Duplicate the above business block for more businesses -->
-			<div class="rounded-lg bg-white p-6 shadow-md dark:bg-gray-900">
-				<div class="flex justify-center">
-					<div class="h-24 w-24 overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700">
-						<img src="/logos/ht-logo.png" alt="Business Logo" class="h-full w-full object-cover" />
-					</div>
+			<!-- Business Card -->
+			<div
+				class="group relative rounded-3xl bg-white/70 p-8 shadow-xl backdrop-blur-md transition-all duration-300 hover:scale-105 hover:shadow-2xl dark:bg-gray-900/70"
+			>
+				<div
+					class="mx-auto mb-6 h-24 w-24 overflow-hidden rounded-full bg-gray-200 ring-4 ring-green-500 transition duration-300 group-hover:ring-yellow-500 dark:bg-gray-700"
+				>
+					<img src="/logos/ht-logo.png" alt="Business Logo" class="h-full w-full object-cover" />
 				</div>
-				<div class="mt-4 text-center">
-					<h3 class="text-2xl font-semibold text-gray-800 dark:text-white">Hometown Industries</h3>
-					<p class="mt-2 text-lg text-gray-600 dark:text-gray-400">
-						Monthly Revenue: <span class="font-semibold text-gray-900 dark:text-white"
-							>$330,000</span
-						>
-					</p>
-				</div>
-				<div class="mt-5 flex justify-center text-center">
+				<h3 class="text-2xl font-semibold text-gray-800 dark:text-white">Hometown Industries</h3>
+				<p class="mt-2 text-lg text-gray-600 dark:text-gray-300">
+					Monthly Revenue: <span class="font-semibold text-gray-900 dark:text-white">$330,000</span>
+				</p>
+				<div class="mt-6">
 					<a
 						href="https://www.hometown-industries.com/"
 						target="_blank"
-						class="w-full transform rounded-lg bg-gradient-to-r from-blue-500 to-indigo-600 px-8 py-4 text-lg font-medium text-white shadow-lg transition-transform hover:scale-105 hover:bg-purple-700 focus:ring-4 focus:ring-purple-300 dark:focus:ring-purple-800"
-						>Learn More</a
+						class="btn btn-lg w-full bg-gradient-to-r from-green-500 to-teal-500 text-white shadow-lg transition-transform duration-300 hover:scale-105 hover:from-yellow-500 hover:to-orange-500"
 					>
+						Learn More 🌱
+					</a>
 				</div>
 			</div>
 
-			<div class="rounded-lg bg-white p-6 shadow-md dark:bg-gray-900">
-				<div class="flex justify-center">
-					<div class="h-24 w-24 overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700">
-						<img src="/logos/ht-logo.png" alt="Business Logo" class="h-full w-full object-cover" />
-					</div>
+			<!-- Business Card -->
+			<div
+				class="group relative rounded-3xl bg-white/70 p-8 shadow-xl backdrop-blur-md transition-all duration-300 hover:scale-105 hover:shadow-2xl dark:bg-gray-900/70"
+			>
+				<div
+					class="mx-auto mb-6 h-24 w-24 overflow-hidden rounded-full bg-gray-200 ring-4 ring-red-500 transition duration-300 group-hover:ring-pink-500 dark:bg-gray-700"
+				>
+					<img src="/logos/ht-logo.png" alt="Business Logo" class="h-full w-full object-cover" />
 				</div>
-				<div class="mt-4 text-center">
-					<h3 class="text-2xl font-semibold text-gray-800 dark:text-white">Svelte SaaS Kit</h3>
-					<p class="mt-2 text-lg text-gray-600 dark:text-gray-400">
-						Monthly Revenue: <span class="font-semibold text-gray-900 dark:text-white">$0</span>
-					</p>
-				</div>
-				<div class="mt-5 flex justify-center text-center">
+				<h3 class="text-2xl font-semibold text-gray-800 dark:text-white">Svelte SaaS Kit</h3>
+				<p class="mt-2 text-lg text-gray-600 dark:text-gray-300">
+					Monthly Revenue: <span class="font-semibold text-gray-900 dark:text-white">$0</span>
+				</p>
+				<div class="mt-6">
 					<a
 						href="https://www.sveltesaaskit.com/"
 						target="_blank"
-						class="w-full transform rounded-lg bg-gradient-to-r from-blue-500 to-indigo-600 px-8 py-4 text-lg font-medium text-white shadow-lg transition-transform hover:scale-105 hover:bg-purple-700 focus:ring-4 focus:ring-purple-300 dark:focus:ring-purple-800"
-						>Learn More</a
+						class="btn btn-lg w-full bg-gradient-to-r from-red-500 to-pink-500 text-white shadow-lg transition-transform duration-300 hover:scale-105 hover:from-yellow-500 hover:to-orange-500"
 					>
+						Learn More 🔥
+					</a>
 				</div>
 			</div>
-
-			<!-- Add more business cards as needed -->
 		</div>
 	</div>
 </section>
@@ -185,8 +186,8 @@
 	<div class="container mx-auto px-6 lg:px-8">
 		<!-- Follow Me Section -->
 		<div class="mb-12 text-center">
-			<h2 class="text-5xl font-extrabold text-white sm:text-5xl">Contact</h2>
-			<div class="mt-6 flex justify-center space-x-6">
+			<h2 class="text-5xl font-extrabold text-white sm:text-5xl">Contact Me</h2>
+			<!-- <div class="mt-6 flex justify-center space-x-6">
 				<a
 					href="#"
 					class="text-white transition hover:text-purple-300"
@@ -220,7 +221,7 @@
 						/>
 					</svg>
 				</a>
-			</div>
+			</div> -->
 		</div>
 
 		<!-- Contact Form -->
