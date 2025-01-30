@@ -1,4 +1,32 @@
 <script>
+	import { PUBLIC_STRIPE_KEY } from '$env/static/public';
+	import { loadStripe } from '@stripe/stripe-js';
+
+	const COACHING_CALL_PRICE_ID = 'price_1Qn5vrRwAkKhSEhM28Lg4EEu';
+
+	async function checkout() {
+		const stripe = await loadStripe(PUBLIC_STRIPE_KEY);
+		const response = await fetch('/api/stripe/checkout', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify({
+				priceId: COACHING_CALL_PRICE_ID,
+				mode: 'payment'
+			})
+		});
+
+		if (response.ok) {
+			const { sessionId } = await response.json();
+			stripe?.redirectToCheckout({ sessionId });
+		} else {
+			console.error(response.json());
+			alert('Redirect to Stripe checkout failed');
+			return;
+		}
+	}
+
 	// Contact form fields
 	let name = '';
 	let email = '';
@@ -375,6 +403,45 @@
 	</div>
 </section>
 <!-- I CAN HELP YOUR BUSINESS SECTION ENDS -->
+
+<!-- BOOK A COACHING CALL SECTION BEGINS -->
+<section
+	id="book-coaching-call"
+	class="bg-gradient-to-b from-gray-50 to-gray-100 py-20 dark:from-gray-900 dark:to-gray-800"
+>
+	<div class="container mx-auto px-6 text-center lg:px-12">
+		<h2 class="mb-8 text-5xl font-bold text-gray-900 dark:text-white">📞 Book a Coaching Call</h2>
+		<p class="mx-auto mb-6 max-w-2xl text-lg text-gray-600 dark:text-gray-300">
+			Need a fresh set of eyes on your business? Let's strategize and unlock new growth
+			opportunities. A <span class="font-bold text-gray-800 dark:text-white"
+				>one-hour coaching call</span
+			>
+			is
+			<span class="font-bold text-gray-800 dark:text-white">$400</span>.
+		</p>
+
+		<!-- Coaching Call Card -->
+		<div class="flex flex-col items-center">
+			<div
+				class="w-full max-w-2xl rounded-3xl bg-white/70 p-8 shadow-xl backdrop-blur-md transition-all duration-300 hover:scale-105 dark:bg-gray-900/70"
+			>
+				<p class="mb-6 text-lg text-gray-600 dark:text-gray-300">
+					Gain personalized insights and actionable strategies tailored to your business needs.
+				</p>
+
+				<!-- Book Now Button -->
+				<button
+					onclick={checkout}
+					href="/book-coaching-call"
+					class="block w-full rounded-lg bg-gradient-to-r from-indigo-500 to-blue-500 px-6 py-3 text-lg font-medium text-white shadow-lg transition-all duration-300 hover:scale-105 hover:from-purple-500 hover:to-pink-500"
+				>
+					🚀 Book Now
+				</button>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- BOOK A COACHING CALL SECTION ENDS -->
 
 <!-- CONNECT WITH ME ON SOCIALS SECTION BEGINS -->
 <section
