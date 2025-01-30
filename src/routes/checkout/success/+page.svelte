@@ -1,4 +1,3 @@
-<!-- SUCCESS PAGE FOR COACHING CALL BOOKING -->
 <section
 	id="coaching-call-success"
 	class="bg-gradient-to-b from-gray-50 to-gray-100 py-20 dark:from-gray-900 dark:to-gray-800"
