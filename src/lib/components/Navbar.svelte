@@ -16,7 +16,7 @@
 </script>
 
 <nav
-	class="navbar bg-gradient-to-r from-purple-600 to-blue-600 px-4 py-3 text-white shadow-lg md:px-8"
+	class="navbar bg-gradient-to-r from-blue-500 to-indigo-600 px-4 py-3 text-white shadow-lg md:px-8"
 >
 	<div class="flex flex-1 items-center">
 		<a href="/" class="text-2xl font-bold tracking-tight">Core Labs</a>
@@ -25,7 +25,7 @@
 	<div class="hidden space-x-6 md:flex">
 		<a
 			href="/#about"
-			class="btn btn-ghost text-white hover:text-gray-200"
+			class="btn btn-ghost hover:text-gray-300 dark:hover:text-gray-400"
 			class:btn-active={isActive('/', '#about')}>About</a
 		>
 		<a
@@ -73,7 +73,7 @@
 <!-- Mobile Navbar -->
 {#if menuOpen}
 	<div
-		class="absolute left-0 right-0 top-16 z-50 flex flex-col items-start bg-gradient-to-r from-purple-600 to-blue-600 p-4 text-white shadow-md md:hidden"
+		class="absolute left-0 right-0 top-16 z-50 flex flex-col items-start bg-gradient-to-r from-blue-500 to-indigo-600 p-4 text-white shadow-md md:hidden"
 	>
 		<a
 			href="/#about"

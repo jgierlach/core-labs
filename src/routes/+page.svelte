@@ -89,7 +89,7 @@
 <!-- ABOUT SECTION ENDS -->
 
 <!-- CONTACT US SECTION BEGINS -->
-<section id="contact" class="bg-gradient-to-r from-purple-600 to-blue-600 py-16 dark:bg-gray-900">
+<section id="contact" class="bg-gradient-to-r from-blue-500 to-indigo-600 py-16 dark:bg-gray-900">
 	<div class="container mx-auto px-6 lg:px-8">
 		<!-- Follow Me Section -->
 		<div class="mb-12 text-center">
