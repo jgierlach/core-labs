@@ -237,6 +237,92 @@
 </section>
 <!-- LATEST VIDEOS SECTION ENDS -->
 
+<!-- LATEST BLOGS SECTION BEGINS -->
+<section
+	id="latest-blogs"
+	class="bg-gradient-to-b from-gray-50 to-gray-100 py-20 dark:from-gray-900 dark:to-gray-800"
+>
+	<div class="container mx-auto px-6 text-center lg:px-12">
+		<h2 class="mb-12 text-5xl font-bold text-gray-900 dark:text-white">📝 Latest Blogs</h2>
+
+		<!-- Blog Cards Grid -->
+		<div class="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+			<!-- Blog Card 1 -->
+			<div
+				class="card bg-white shadow-xl transition-transform duration-300 hover:scale-105 dark:bg-gray-900"
+			>
+				<figure>
+					<img
+						src="https://archive.org/download/placeholder-image/placeholder-image.jpg"
+						alt="Blog Image"
+						class="rounded-t-xl"
+					/>
+				</figure>
+				<div class="card-body">
+					<h3 class="text-2xl font-semibold text-gray-800 dark:text-white">
+						The Future of Web Development
+					</h3>
+					<p class="text-gray-600 dark:text-gray-300">
+						Discover the latest trends in web development and how they shape the future.
+					</p>
+					<div class="mt-4">
+						<a href="#" class="btn btn-primary w-full">Read More 📖</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Blog Card 2 -->
+			<div
+				class="card bg-white shadow-xl transition-transform duration-300 hover:scale-105 dark:bg-gray-900"
+			>
+				<figure>
+					<img
+						src="https://archive.org/download/placeholder-image/placeholder-image.jpg"
+						alt="Blog Image"
+						class="rounded-t-xl"
+					/>
+				</figure>
+				<div class="card-body">
+					<h3 class="text-2xl font-semibold text-gray-800 dark:text-white">
+						Scaling Your Online Business
+					</h3>
+					<p class="text-gray-600 dark:text-gray-300">
+						Learn proven strategies to grow and scale your e-commerce business effectively.
+					</p>
+					<div class="mt-4">
+						<a href="#" class="btn btn-primary w-full">Read More 📖</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Blog Card 3 -->
+			<div
+				class="card bg-white shadow-xl transition-transform duration-300 hover:scale-105 dark:bg-gray-900"
+			>
+				<figure>
+					<img
+						src="https://archive.org/download/placeholder-image/placeholder-image.jpg"
+						alt="Blog Image"
+						class="rounded-t-xl"
+					/>
+				</figure>
+				<div class="card-body">
+					<h3 class="text-2xl font-semibold text-gray-800 dark:text-white">
+						How to Build a SaaS Product
+					</h3>
+					<p class="text-gray-600 dark:text-gray-300">
+						Step-by-step guide on building and launching a profitable SaaS product.
+					</p>
+					<div class="mt-4">
+						<a href="#" class="btn btn-primary w-full">Read More 📖</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- LATEST BLOGS SECTION ENDS -->
+
 <!-- I CAN HELP YOUR BUSINESS SECTION BEGINS -->
 <section
 	id="help-your-business"
