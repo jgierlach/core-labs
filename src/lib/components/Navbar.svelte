@@ -25,7 +25,7 @@
 	<div class="hidden space-x-6 md:flex">
 		<a
 			href="/#about"
-			class="btn btn-ghost hover:text-gray-300 dark:hover:text-gray-400"
+			class="btn btn-ghost text-white hover:text-gray-200"
 			class:btn-active={isActive('/', '#about')}>About</a
 		>
 		<a
