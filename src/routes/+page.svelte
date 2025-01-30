@@ -181,6 +181,59 @@
 </section>
 <!-- OUR BUSINESSES SECTION ENDS -->
 
+<!-- I CAN HELP YOUR BUSINESS SECTION BEGINS -->
+<section
+	id="help-your-business"
+	class="bg-gradient-to-br from-gray-50 to-gray-200 py-20 dark:from-gray-900 dark:to-gray-800"
+>
+	<div class="container mx-auto px-6 text-center lg:px-12">
+		<h2 class="mb-12 text-5xl font-bold text-gray-900 dark:text-white">
+			💡 I can help your business...
+		</h2>
+
+		<!-- Help Options Grid -->
+		<div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+			<!-- Sell More Online -->
+			<div
+				class="group relative rounded-3xl bg-white/70 p-8 shadow-xl backdrop-blur-md transition-all duration-300 hover:scale-105 hover:shadow-2xl dark:bg-gray-900/70"
+			>
+				<h3 class="text-2xl font-semibold text-gray-800 dark:text-white">📈 Sell More Online</h3>
+				<p class="mt-2 text-lg text-gray-600 dark:text-gray-300">
+					Optimize your e-commerce business and boost sales through strategic digital marketing,
+					UX/UI improvements, and conversion rate optimization.
+				</p>
+			</div>
+
+			<!-- Fulfill Orders Cheaper -->
+			<div
+				class="group relative rounded-3xl bg-white/70 p-8 shadow-xl backdrop-blur-md transition-all duration-300 hover:scale-105 hover:shadow-2xl dark:bg-gray-900/70"
+			>
+				<h3 class="text-2xl font-semibold text-gray-800 dark:text-white">
+					🚚 Fulfill Orders Cheaper
+				</h3>
+				<p class="mt-2 text-lg text-gray-600 dark:text-gray-300">
+					Reduce logistics costs and improve efficiency with streamlined fulfillment strategies,
+					automation, and supply chain optimization.
+				</p>
+			</div>
+
+			<!-- Scale SvelteKit Apps -->
+			<div
+				class="group relative rounded-3xl bg-white/70 p-8 shadow-xl backdrop-blur-md transition-all duration-300 hover:scale-105 hover:shadow-2xl dark:bg-gray-900/70"
+			>
+				<h3 class="text-2xl font-semibold text-gray-800 dark:text-white">
+					🚀 Scale SvelteKit Apps
+				</h3>
+				<p class="mt-2 text-lg text-gray-600 dark:text-gray-300">
+					Build high-performance, scalable web applications with SvelteKit, leveraging modern
+					frameworks, edge computing, and serverless technologies.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- I CAN HELP YOUR BUSINESS SECTION ENDS -->
+
 <!-- CONNECT WITH ME ON SOCIALS SECTION BEGINS -->
 <section
 	id="connect-socials"
@@ -265,55 +318,31 @@
 </section>
 <!-- CONNECT WITH ME ON SOCIALS SECTION ENDS -->
 
-<!-- CONTACT US SECTION BEGINS -->
-<section id="contact" class="bg-gradient-to-r from-blue-500 to-indigo-600 py-16 dark:bg-gray-900">
-	<div class="container mx-auto px-6 lg:px-8">
-		<!-- Follow Me Section -->
-		<div class="mb-12 text-center">
-			<h2 class="text-5xl font-extrabold text-white sm:text-5xl">Contact Me</h2>
-			<!-- <div class="mt-6 flex justify-center space-x-6">
-				<a
-					href="#"
-					class="text-white transition hover:text-purple-300"
-					aria-label="Visit our Facebook"
-				>
-					<svg class="h-8 w-8 fill-current" viewBox="0 0 24 24">
-						<path
-							d="M22.675 0H1.325C.593 0 0 .593 0 1.326v21.348C0 23.408.593 24 1.325 24h11.495v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.894-4.787 4.659-4.787 1.325 0 2.464.098 2.794.142v3.24h-1.918c-1.504 0-1.794.715-1.794 1.762v2.309h3.588l-.467 3.622h-3.121V24h6.116C23.408 24 24 23.408 24 22.674V1.326C24 .593 23.408 0 22.675 0z"
-						/>
-					</svg>
-				</a>
-				<a
-					href="#"
-					class="text-white transition hover:text-purple-300"
-					aria-label="Visit our Twitter"
-				>
-					<svg class="h-8 w-8 fill-current" viewBox="0 0 24 24">
-						<path
-							d="M24 4.557a9.835 9.835 0 01-2.828.775 4.92 4.92 0 002.165-2.724 9.867 9.867 0 01-3.127 1.194A4.918 4.918 0 0016.616 3c-2.724 0-4.93 2.206-4.93 4.93 0 .387.043.763.127 1.124-4.094-.205-7.72-2.165-10.141-5.144a4.935 4.935 0 00-.666 2.479c0 1.71.87 3.218 2.19 4.098a4.903 4.903 0 01-2.232-.616v.062c0 2.386 1.697 4.374 3.946 4.828a4.935 4.935 0 01-2.224.084c.628 1.958 2.444 3.383 4.6 3.422A9.863 9.863 0 010 19.54a13.94 13.94 0 007.548 2.212c9.058 0 14.009-7.504 14.009-14.009 0-.213-.005-.425-.015-.637A10.012 10.012 0 0024 4.557z"
-						/>
-					</svg>
-				</a>
-				<a
-					href="#"
-					class="text-white transition hover:text-purple-300"
-					aria-label="Visit our LinkedIn"
-				>
-					<svg class="h-8 w-8 fill-current" viewBox="0 0 24 24">
-						<path
-							d="M22.23 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.226.792 24 1.771 24H22.23c.978 0 1.77-.774 1.77-1.729V1.729C24 .774 23.208 0 22.23 0zM7.126 20.452H3.713V9.207h3.413v11.245zM5.42 7.735C4.331 7.735 3.453 6.852 3.453 5.776c0-1.075.878-1.96 1.967-1.96 1.088 0 1.967.885 1.967 1.96 0 1.076-.88 1.96-1.967 1.96zm14.999 12.717h-3.413v-5.717c0-1.365-.025-3.118-1.902-3.118-1.903 0-2.195 1.486-2.195 3.017v5.818H9.504V9.207h3.277v1.538h.047c.456-.861 1.568-1.769 3.225-1.769 3.446 0 4.084 2.27 4.084 5.222v6.254z"
-						/>
-					</svg>
-				</a>
-			</div> -->
-		</div>
+<!-- CONTACT ME SECTION BEGINS -->
+<section
+	id="contact"
+	class="bg-gradient-to-br from-gray-50 to-gray-200 py-20 dark:from-gray-900 dark:to-gray-800"
+>
+	<div class="container mx-auto px-6 text-center lg:px-12">
+		<h2 class="mb-10 text-5xl font-bold text-gray-900 dark:text-white">📬 Contact Me</h2>
 
-		<!-- Contact Form -->
-		<div class="flex justify-center">
-			<div class="w-full max-w-xl rounded-lg bg-white p-8 shadow-lg">
-				<form onsubmit={submitContactForm}>
-					<div class="mb-6">
-						<label for="name" class="mb-2 block text-sm font-medium text-gray-700">
+		<div class="flex flex-col items-center">
+			<!-- Contact Card -->
+			<div
+				class="w-full max-w-2xl rounded-3xl bg-white/70 p-10 shadow-xl backdrop-blur-md transition-all duration-300 hover:scale-105 dark:bg-gray-900/70"
+			>
+				<p class="mb-6 text-lg text-gray-600 dark:text-gray-300">
+					Have a question or want to work together? Fill out the form below, and I'll get back to
+					you as soon as possible.
+				</p>
+
+				<form onsubmit={submitContactForm} class="space-y-6">
+					<!-- Name -->
+					<div>
+						<label
+							for="name"
+							class="mb-2 block text-left text-sm font-medium text-gray-700 dark:text-gray-300"
+						>
 							Your Name
 						</label>
 						<input
@@ -321,13 +350,17 @@
 							type="text"
 							id="name"
 							placeholder="Enter your name"
-							class="w-full rounded-lg border border-gray-300 bg-gray-50 p-3 text-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+							class="w-full rounded-lg border border-gray-300 bg-gray-50 p-3 text-sm focus:border-blue-500 focus:ring focus:ring-blue-200 dark:border-gray-700 dark:bg-gray-800 dark:text-white"
 							required
 						/>
 					</div>
 
-					<div class="mb-6">
-						<label for="email" class="mb-2 block text-sm font-medium text-gray-700">
+					<!-- Email -->
+					<div>
+						<label
+							for="email"
+							class="mb-2 block text-left text-sm font-medium text-gray-700 dark:text-gray-300"
+						>
 							Your Email
 						</label>
 						<input
@@ -335,40 +368,46 @@
 							type="email"
 							id="email"
 							placeholder="Enter your email"
-							class="w-full rounded-lg border border-gray-300 bg-gray-50 p-3 text-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+							class="w-full rounded-lg border border-gray-300 bg-gray-50 p-3 text-sm focus:border-blue-500 focus:ring focus:ring-blue-200 dark:border-gray-700 dark:bg-gray-800 dark:text-white"
 							required
 						/>
 					</div>
 
-					<div class="mb-6">
-						<label for="message" class="mb-2 block text-sm font-medium text-gray-700">
+					<!-- Message -->
+					<div>
+						<label
+							for="message"
+							class="mb-2 block text-left text-sm font-medium text-gray-700 dark:text-gray-300"
+						>
 							Your Message
 						</label>
 						<textarea
 							bind:value={message}
 							id="message"
-							placeholder="Write your message here"
-							rows="6"
-							class="w-full rounded-lg border border-gray-300 bg-gray-50 p-3 text-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+							placeholder="Write your message here..."
+							rows="5"
+							class="w-full rounded-lg border border-gray-300 bg-gray-50 p-3 text-sm focus:border-blue-500 focus:ring focus:ring-blue-200 dark:border-gray-700 dark:bg-gray-800 dark:text-white"
 							required
 						></textarea>
 					</div>
 
+					<!-- Submit Button -->
 					<button
 						type="submit"
-						class="w-full rounded-lg bg-purple-600 px-6 py-3 text-sm font-medium text-white transition hover:bg-purple-700 focus:outline-none focus:ring-4 focus:ring-purple-300 dark:focus:ring-purple-800"
+						class="w-full rounded-lg bg-gradient-to-r from-indigo-500 to-blue-500 px-6 py-3 text-lg font-medium text-white shadow-lg transition-all duration-300 hover:scale-105 hover:from-purple-500 hover:to-pink-500"
 					>
-						Send Message
+						🚀 Send Message
 					</button>
 				</form>
+
+				<!-- Success Message -->
 				{#if showSubmissionSuccess}
 					<div
-						class="mt-6 rounded-lg bg-gradient-to-r from-purple-600 to-blue-600 p-6 text-white shadow-lg"
+						class="mt-6 rounded-xl bg-gradient-to-r from-green-500 to-teal-500 p-6 text-white shadow-lg"
 					>
-						<h1 class="text-center text-3xl font-bold">🎉 Message Sent!</h1>
-						<p class="mt-4 text-center text-lg">
-							Thank you for reaching out! We’ve received your message and will get back to you as
-							soon as possible.
+						<h1 class="text-center text-2xl font-bold">🎉 Message Sent!</h1>
+						<p class="mt-2 text-center text-lg">
+							Thank you! I'll get back to you as soon as possible.
 						</p>
 					</div>
 				{/if}
@@ -376,4 +415,4 @@
 		</div>
 	</div>
 </section>
-<!-- CONTACT US SECTION ENDS -->
+<!-- CONTACT ME SECTION ENDS -->
