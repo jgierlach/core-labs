@@ -88,6 +88,98 @@
 </div>
 <!-- ABOUT SECTION ENDS -->
 
+<!-- OUR BUSINESSES SECTION BEGINS -->
+<section id="our-businesses" class="bg-gray-100 py-16 dark:bg-gray-800">
+	<div class="container mx-auto px-6 lg:px-8">
+		<h2 class="text-center text-5xl font-extrabold text-gray-900 dark:text-white">
+			Our Businesses
+		</h2>
+
+		<!-- Business Cards Grid -->
+		<div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+			<!-- Example Business Item -->
+			<div class="rounded-lg bg-white p-6 shadow-md dark:bg-gray-900">
+				<!-- Business Logo Placeholder -->
+				<div class="flex justify-center">
+					<div class="h-24 w-24 overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700">
+						<!-- Replace with actual logo -->
+						<img src="/logos/osc-logo.png" alt="Business Logo" class="h-full w-full object-cover" />
+					</div>
+				</div>
+
+				<!-- Business Details -->
+				<div class="mt-4 text-center">
+					<h3 class="text-2xl font-semibold text-gray-800 dark:text-white">
+						Online Seller Consulting
+					</h3>
+					<p class="mt-2 text-lg text-gray-600 dark:text-gray-400">
+						Monthly Revenue: <span class="font-semibold text-gray-900 dark:text-white">$50,000</span
+						>
+					</p>
+				</div>
+				<div class="mt-5 flex justify-center text-center">
+					<a
+						href="https://www.onlinesellerconsulting.com/"
+						target="_blank"
+						class="w-full transform rounded-lg bg-gradient-to-r from-blue-500 to-indigo-600 px-8 py-4 text-lg font-medium text-white shadow-lg transition-transform hover:scale-105 hover:bg-purple-700 focus:ring-4 focus:ring-purple-300 dark:focus:ring-purple-800"
+						>Learn More</a
+					>
+				</div>
+			</div>
+
+			<!-- Duplicate the above business block for more businesses -->
+			<div class="rounded-lg bg-white p-6 shadow-md dark:bg-gray-900">
+				<div class="flex justify-center">
+					<div class="h-24 w-24 overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700">
+						<img src="/logos/ht-logo.png" alt="Business Logo" class="h-full w-full object-cover" />
+					</div>
+				</div>
+				<div class="mt-4 text-center">
+					<h3 class="text-2xl font-semibold text-gray-800 dark:text-white">Hometown Industries</h3>
+					<p class="mt-2 text-lg text-gray-600 dark:text-gray-400">
+						Monthly Revenue: <span class="font-semibold text-gray-900 dark:text-white"
+							>$330,000</span
+						>
+					</p>
+				</div>
+				<div class="mt-5 flex justify-center text-center">
+					<a
+						href="https://www.hometown-industries.com/"
+						target="_blank"
+						class="w-full transform rounded-lg bg-gradient-to-r from-blue-500 to-indigo-600 px-8 py-4 text-lg font-medium text-white shadow-lg transition-transform hover:scale-105 hover:bg-purple-700 focus:ring-4 focus:ring-purple-300 dark:focus:ring-purple-800"
+						>Learn More</a
+					>
+				</div>
+			</div>
+
+			<div class="rounded-lg bg-white p-6 shadow-md dark:bg-gray-900">
+				<div class="flex justify-center">
+					<div class="h-24 w-24 overflow-hidden rounded-full bg-gray-200 dark:bg-gray-700">
+						<img src="/logos/ht-logo.png" alt="Business Logo" class="h-full w-full object-cover" />
+					</div>
+				</div>
+				<div class="mt-4 text-center">
+					<h3 class="text-2xl font-semibold text-gray-800 dark:text-white">Svelte SaaS Kit</h3>
+					<p class="mt-2 text-lg text-gray-600 dark:text-gray-400">
+						Monthly Revenue: <span class="font-semibold text-gray-900 dark:text-white">$0</span>
+					</p>
+				</div>
+				<div class="mt-5 flex justify-center text-center">
+					<a
+						href="https://www.sveltesaaskit.com/"
+						target="_blank"
+						class="w-full transform rounded-lg bg-gradient-to-r from-blue-500 to-indigo-600 px-8 py-4 text-lg font-medium text-white shadow-lg transition-transform hover:scale-105 hover:bg-purple-700 focus:ring-4 focus:ring-purple-300 dark:focus:ring-purple-800"
+						>Learn More</a
+					>
+				</div>
+			</div>
+
+			<!-- Add more business cards as needed -->
+		</div>
+	</div>
+</section>
+<!-- OUR BUSINESSES SECTION ENDS -->
+
 <!-- CONTACT US SECTION BEGINS -->
 <section id="contact" class="bg-gradient-to-r from-blue-500 to-indigo-600 py-16 dark:bg-gray-900">
 	<div class="container mx-auto px-6 lg:px-8">
