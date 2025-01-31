@@ -127,8 +127,8 @@
 		</h2>
 		<div class="space-y-4 text-left">
 			<p class="mx-auto max-w-3xl text-lg text-gray-600 sm:text-xl dark:text-gray-400">
-				Hello 👋, my name is Jan-Edward. I am a fullstack developer and business owner. Over the
-				past 3 years, I’ve generated
+				Hello 👋, my name is <span class="font-semibold text-white">Jan-Edward</span>. I am a
+				fullstack developer and business owner. Over the past 3 years, I’ve generated
 				<span class="font-semibold text-gray-800 dark:text-white">$2.35 million</span> in revenue by
 				creating and scaling digital products and services.
 			</p>
