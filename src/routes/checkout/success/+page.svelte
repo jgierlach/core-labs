@@ -24,13 +24,15 @@
 
 				<!-- Call to Action Buttons -->
 				<div class="flex flex-col gap-4 sm:flex-row sm:justify-center">
-					<a href="/#contact" class="btn btn-primary w-full text-white"> 📩 Contact Me </a>
-					<a
-						href="/"
-						class="btn mt-4 w-full bg-gradient-to-r from-indigo-500 to-blue-500 text-white shadow-lg transition-transform duration-300 hover:scale-105 hover:from-purple-500 hover:to-pink-500 sm:w-auto"
-					>
-						🏠 Back to Homepage
-					</a>
+					<div>
+						<a href="/#contact" class="btn btn-primary w-full text-white"> 📩 Contact Me </a>
+						<a
+							href="/"
+							class="btn mt-4 w-full bg-gradient-to-r from-indigo-500 to-blue-500 text-white shadow-lg transition-transform duration-300 hover:scale-105 hover:from-purple-500 hover:to-pink-500"
+						>
+							🏠 Back to Homepage
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>

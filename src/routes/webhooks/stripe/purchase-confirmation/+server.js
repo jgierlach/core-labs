@@ -18,8 +18,6 @@ export async function POST({ request, locals }) {
 		// Send email notification for purchase
 		try {
 			const endpoint = 'https://api.sendgrid.com/v3/mail/send';
-
-			// Notify yourself that someone purchased Svelte SaaS Kit
 			const response = await fetch(endpoint, {
 				method: 'POST',
 				headers: {

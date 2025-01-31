@@ -15,8 +15,8 @@ export async function POST({ request, locals }) {
 			}
 		],
 		mode: 'payment',
-		success_url: `${'http://localhost:5173'}/checkout/success`,
-		cancel_url: `${'http://localhost:5173'}/checkout/failure`
+		success_url: `${'https://www.corelabs.digital'}/checkout/success`,
+		cancel_url: `${'https://www.corelabs.digital'}/checkout/failure`
 	});
 
 	return json({ sessionId: session.id });
