@@ -68,12 +68,63 @@
 	/>
 </svelte:head>
 
+<section
+	class="relative flex items-center justify-center bg-gradient-to-r from-blue-500 to-indigo-600 px-6 py-24 text-white dark:from-gray-900 dark:to-gray-800"
+>
+	<div class="max-w-4xl text-center">
+		<!-- Title -->
+		<h1 class="text-4xl font-bold leading-tight sm:text-5xl md:text-6xl">
+			🚀 Supercharge Your Business with Core Labs
+		</h1>
+
+		<!-- Subtitle -->
+		<p class="mt-6 text-lg text-gray-200 sm:text-xl">
+			We help entrepreneurs scale their online businesses using cutting-edge web development &
+			digital strategies.
+		</p>
+
+		<!-- CTA Buttons -->
+		<div class="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
+			<a
+				href="#contact"
+				class="w-full rounded-lg bg-gradient-to-r from-indigo-500 to-blue-500 px-6 py-3 text-lg font-medium text-white shadow-lg transition-transform hover:scale-105 sm:w-auto"
+			>
+				📞 Get In Touch
+			</a>
+			<a
+				href="#our-businesses"
+				class="w-full rounded-lg bg-white px-6 py-3 text-lg font-medium text-indigo-600 shadow-lg transition-transform hover:scale-105 sm:w-auto"
+			>
+				🚀 See My Work
+			</a>
+			<a
+				href="#latest-videos"
+				class="w-full rounded-lg bg-white px-6 py-3 text-lg font-medium text-indigo-600 shadow-lg transition-transform hover:scale-105 sm:w-auto"
+			>
+				🎥 See My Content
+			</a>
+		</div>
+	</div>
+
+	<!-- Floating Image -->
+	<div class="absolute right-12 top-16 hidden md:block">
+		<img
+			src="/logos/core-labs-logo-sm.png"
+			alt="Core Labs"
+			class="animate-float h-24 w-24 opacity-90 drop-shadow-lg"
+		/>
+	</div>
+</section>
+
 <!-- ABOUT SECTION BEGINS -->
 <div
 	class="bg-gradient-to-b from-gray-50 to-gray-100 py-16 dark:from-gray-900 dark:to-gray-800"
 	id="about"
 >
 	<div class="container mx-auto flex flex-col items-center space-y-12 px-6">
+		<h2 class="text-3xl font-extrabold text-gray-800 sm:text-4xl dark:text-white">
+			Why should you care what I have to say?
+		</h2>
 		<div class="space-y-4 text-left">
 			<p class="mx-auto max-w-3xl text-lg text-gray-600 sm:text-xl dark:text-gray-400">
 				Hello 👋, my name is Jan-Edward. I am a fullstack developer and business owner. Over the
@@ -632,4 +683,23 @@
 		</div>
 	</div>
 </section>
+
 <!-- CONTACT ME SECTION ENDS -->
+
+<!-- Floating Animation -->
+<style>
+	@keyframes float {
+		0% {
+			transform: translateY(0px);
+		}
+		50% {
+			transform: translateY(-10px);
+		}
+		100% {
+			transform: translateY(0px);
+		}
+	}
+	.animate-float {
+		animation: float 3s ease-in-out infinite;
+	}
+</style>
