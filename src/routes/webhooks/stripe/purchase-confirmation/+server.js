@@ -35,7 +35,7 @@ export async function POST({ request, locals }) {
 					],
 					from: {
 						email: 'info@sveltesaaskit.com',
-						name: 'Core Labs | Coaching'
+						name: 'Core Labs Coaching'
 					},
 					content: [
 						{
@@ -90,7 +90,7 @@ export async function POST({ request, locals }) {
 		// Return successful purchase and user creation
 		return json(
 			{
-				message: `Purchase successful! User created with email ${customerEmail}.`
+				message: `Coaching called booked! Confirmation email sent to ${customerEmail}.`
 			},
 			{ status: 200 }
 		);
