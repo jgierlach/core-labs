@@ -425,46 +425,98 @@
 >
 	<div class="container mx-auto px-6 text-center lg:px-12">
 		<h2 class="mb-12 text-5xl font-bold text-gray-900 dark:text-white">
-			💡 I can help your business...
+			💡 I can help your business with...
 		</h2>
 
-		<!-- Help Options Grid -->
+		<!-- Services Grid -->
 		<div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
-			<!-- Sell More Online -->
+			<!-- Service Card -->
 			<div
-				class="group relative rounded-3xl bg-white/70 p-8 shadow-xl backdrop-blur-md transition-all duration-300 hover:scale-105 hover:shadow-2xl dark:bg-gray-900/70"
+				class="group relative overflow-hidden rounded-3xl bg-white p-8 shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl dark:bg-gray-900"
 			>
-				<h3 class="text-2xl font-semibold text-gray-800 dark:text-white">📈 Sell More Online</h3>
-				<p class="mt-2 text-lg text-gray-600 dark:text-gray-300">
-					Optimize your e-commerce business and boost sales through strategic digital marketing,
-					UX/UI improvements, and conversion rate optimization.
-				</p>
-			</div>
-
-			<!-- Fulfill Orders Cheaper -->
-			<div
-				class="group relative rounded-3xl bg-white/70 p-8 shadow-xl backdrop-blur-md transition-all duration-300 hover:scale-105 hover:shadow-2xl dark:bg-gray-900/70"
-			>
-				<h3 class="text-2xl font-semibold text-gray-800 dark:text-white">
-					🚚 Fulfill Orders Cheaper
+				<h3 class="flex items-center text-2xl font-semibold text-gray-800 dark:text-white">
+					📢 Digital Advertising
 				</h3>
 				<p class="mt-2 text-lg text-gray-600 dark:text-gray-300">
-					Reduce logistics costs and improve efficiency with streamlined fulfillment strategies,
-					automation, and supply chain optimization.
+					Maximize your reach with data-driven PPC, social media ads, and SEO.
 				</p>
+				<a
+					href="https://www.onlinesellerconsulting.com/amazon-advertising"
+					target="_blank"
+					class="absolute inset-0"
+				></a>
 			</div>
 
-			<!-- Scale SvelteKit Apps -->
 			<div
-				class="group relative rounded-3xl bg-white/70 p-8 shadow-xl backdrop-blur-md transition-all duration-300 hover:scale-105 hover:shadow-2xl dark:bg-gray-900/70"
+				class="group relative overflow-hidden rounded-3xl bg-white p-8 shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl dark:bg-gray-900"
 			>
-				<h3 class="text-2xl font-semibold text-gray-800 dark:text-white">
-					🚀 Scale SvelteKit Apps
+				<h3 class="flex items-center text-2xl font-semibold text-gray-800 dark:text-white">
+					💻 Web Development
 				</h3>
 				<p class="mt-2 text-lg text-gray-600 dark:text-gray-300">
-					Build high-performance, scalable web applications with SvelteKit, leveraging modern
-					frameworks, edge computing, and serverless technologies.
+					Build responsive, fast, and scalable websites with modern frameworks.
 				</p>
+				<a href="" class="absolute inset-0"></a>
+			</div>
+
+			<div
+				class="group relative overflow-hidden rounded-3xl bg-white p-8 shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl dark:bg-gray-900"
+			>
+				<h3 class="flex items-center text-2xl font-semibold text-gray-800 dark:text-white">
+					⚡ Conversion Rate Optimization
+				</h3>
+				<p class="mt-2 text-lg text-gray-600 dark:text-gray-300">
+					Improve user experience and increase sales through A/B testing.
+				</p>
+				<a
+					href="https://www.onlinesellerconsulting.com/optimize-amazon-listings"
+					target="_blank"
+					class="absolute inset-0"
+				></a>
+			</div>
+
+			<div
+				class="group relative overflow-hidden rounded-3xl bg-white p-8 shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl dark:bg-gray-900"
+			>
+				<h3 class="flex items-center text-2xl font-semibold text-gray-800 dark:text-white">
+					📦 Storage & Fulfillment
+				</h3>
+				<p class="mt-2 text-lg text-gray-600 dark:text-gray-300">
+					Optimize your supply chain and reduce order fulfillment costs.
+				</p>
+				<a
+					href="https://www.hometown-industries.com/storage-and-fulfillment"
+					target="_blank"
+					class="absolute inset-0"
+				></a>
+			</div>
+
+			<div
+				class="group relative overflow-hidden rounded-3xl bg-white p-8 shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl dark:bg-gray-900"
+			>
+				<h3 class="flex items-center text-2xl font-semibold text-gray-800 dark:text-white">
+					🛒 Wholesale Product Purchasing
+				</h3>
+				<p class="mt-2 text-lg text-gray-600 dark:text-gray-300">
+					Get exclusive bulk pricing and manage vendor relations efficiently.
+				</p>
+				<a href="https://www.hometown-industries.com/" target="_blank" class="absolute inset-0"></a>
+			</div>
+
+			<div
+				class="group relative overflow-hidden rounded-3xl bg-white p-8 shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl dark:bg-gray-900"
+			>
+				<h3 class="flex items-center text-2xl font-semibold text-gray-800 dark:text-white">
+					🔧 Ecomm Platform Management
+				</h3>
+				<p class="mt-2 text-lg text-gray-600 dark:text-gray-300">
+					Optimize and manage your Shopify, WooCommerce, or custom e-commerce store.
+				</p>
+				<a
+					href="https://www.onlinesellerconsulting.com/amazon-seller-account-management"
+					target="_blank"
+					class="absolute inset-0"
+				></a>
 			</div>
 		</div>
 	</div>
