@@ -26,7 +26,7 @@
 		<!-- Social Media Icons -->
 		<div class="mb-6 flex justify-center space-x-6">
 			<!-- Twitter -->
-			<a href="https://x.com/J_EdwardPR" target="_blank" class="group">
+			<a href="https://x.com/jegierlach" target="_blank" class="group">
 				<svg
 					class="h-8 w-8 text-gray-600 transition group-hover:text-blue-500 dark:text-gray-400"
 					fill="currentColor"

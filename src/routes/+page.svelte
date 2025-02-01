@@ -574,7 +574,7 @@
 		<div class="flex justify-center space-x-6">
 			<!-- X (Twitter) -->
 			<a
-				href="https://x.com/J_EdwardPR"
+				href="https://x.com/jegierlach"
 				target="_blank"
 				class="group flex h-16 w-16 items-center justify-center rounded-full bg-white/70 p-4 shadow-lg backdrop-blur-md transition-transform duration-300 hover:scale-110 hover:bg-gray-800"
 			>
