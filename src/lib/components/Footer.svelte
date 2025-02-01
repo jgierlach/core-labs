@@ -26,7 +26,7 @@
 		<!-- Social Media Icons -->
 		<div class="mb-6 flex justify-center space-x-6">
 			<!-- Twitter -->
-			<a href="https://twitter.com/" target="_blank" class="group">
+			<a href="https://x.com/J_EdwardPR" target="_blank" class="group">
 				<svg
 					class="h-8 w-8 text-gray-600 transition group-hover:text-blue-500 dark:text-gray-400"
 					fill="currentColor"
@@ -52,7 +52,7 @@
 			</a>
 
 			<!-- LinkedIn -->
-			<a href="https://linkedin.com/" target="_blank" class="group">
+			<a href="https://www.linkedin.com/in/jan-gierlach/" target="_blank" class="group">
 				<svg
 					class="h-8 w-8 text-gray-600 transition group-hover:text-blue-700 dark:text-gray-400"
 					fill="currentColor"
@@ -65,7 +65,7 @@
 			</a>
 
 			<!-- YouTube -->
-			<a href="https://youtube.com/" target="_blank" class="group">
+			<a href="https://www.youtube.com/@CoreLabsDigital" target="_blank" class="group">
 				<svg
 					class="h-8 w-8 text-gray-600 transition group-hover:text-red-600 dark:text-gray-400"
 					fill="currentColor"

@@ -574,7 +574,7 @@
 		<div class="flex justify-center space-x-6">
 			<!-- X (Twitter) -->
 			<a
-				href="https://twitter.com/"
+				href="https://x.com/J_EdwardPR"
 				target="_blank"
 				class="group flex h-16 w-16 items-center justify-center rounded-full bg-white/70 p-4 shadow-lg backdrop-blur-md transition-transform duration-300 hover:scale-110 hover:bg-gray-800"
 			>
@@ -608,7 +608,7 @@
 
 			<!-- LinkedIn -->
 			<a
-				href="https://linkedin.com/"
+				href="https://www.linkedin.com/in/jan-gierlach/"
 				target="_blank"
 				class="group flex h-16 w-16 items-center justify-center rounded-full bg-white/70 p-4 shadow-lg backdrop-blur-md transition-transform duration-300 hover:scale-110 hover:bg-blue-600"
 			>
@@ -625,7 +625,7 @@
 
 			<!-- YouTube -->
 			<a
-				href="https://youtube.com/"
+				href="https://www.youtube.com/@CoreLabsDigital"
 				target="_blank"
 				class="group flex h-16 w-16 items-center justify-center rounded-full bg-white/70 p-4 shadow-lg backdrop-blur-md transition-transform duration-300 hover:scale-110 hover:bg-red-600"
 			>
