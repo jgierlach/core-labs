@@ -465,7 +465,7 @@
 <!-- I CAN HELP YOUR BUSINESS SECTION ENDS -->
 
 <!-- BOOK A COACHING CALL SECTION BEGINS -->
-<section
+<!-- <section
 	id="book-coaching-call"
 	class="bg-gradient-to-b from-gray-50 to-gray-100 py-20 dark:from-gray-900 dark:to-gray-800"
 >
@@ -480,7 +480,6 @@
 			<span class="font-bold text-gray-800 dark:text-white">$400</span>.
 		</p>
 
-		<!-- Coaching Call Card -->
 		<div class="flex flex-col items-center">
 			<div
 				class="w-full max-w-2xl rounded-3xl bg-white/70 p-8 shadow-xl backdrop-blur-md transition-all duration-300 hover:scale-105 dark:bg-gray-900/70"
@@ -489,7 +488,6 @@
 					Gain personalized insights and actionable strategies tailored to your business needs.
 				</p>
 
-				<!-- Book Now Button -->
 				<button
 					onclick={checkout}
 					href="/book-coaching-call"
@@ -500,7 +498,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 <!-- BOOK A COACHING CALL SECTION ENDS -->
 
 <!-- CONNECT WITH ME ON SOCIALS SECTION BEGINS -->
