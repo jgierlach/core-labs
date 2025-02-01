@@ -155,14 +155,6 @@
 			</p>
 		</div>
 
-		<!-- <div class="max-w-3xl space-y-4 text-left sm:text-left">
-			<p class="text-l text-left text-gray-600 sm:text-xl dark:text-gray-400">
-				And in just under 3 years <span class="font-semibold text-gray-800 dark:text-white"
-					>$3.88</span
-				> million selling on Amazon.
-			</p>
-		</div> -->
-
 		<!-- Image with Caption -->
 		<div class="flex flex-col items-center space-y-4">
 			<img
@@ -171,6 +163,17 @@
 				class="max-w-full rounded-lg object-cover shadow-lg sm:max-w-lg lg:max-w-2xl"
 			/>
 			<p class="text-sm text-gray-500 dark:text-gray-400">Amazon revenue 1/31/2022 - 12/31/2024</p>
+		</div>
+
+		<div class="space-y-4 text-left">
+			<p class="mx-auto max-w-3xl text-left text-lg text-gray-600 sm:text-xl dark:text-gray-400">
+				<span class="font-semibold text-gray-800 dark:text-white"
+					>So why should this matter to you?</span
+				> Because I’ve built and scaled businesses from the ground up, I know what works (and what doesn’t).
+				Whether it’s digital products, eCommerce, or automation-driven growth strategies, I’ve tested,
+				optimized, and refined systems that drive real results. If you're looking for actionable insights,
+				no-fluff strategies, and the lessons I’ve learned along the way, you’re in the right place.
+			</p>
 		</div>
 	</div>
 </div>
