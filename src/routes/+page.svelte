@@ -2,8 +2,7 @@
 	import { PUBLIC_STRIPE_KEY } from '$env/static/public';
 	import { loadStripe } from '@stripe/stripe-js';
 
-	// const COACHING_CALL_PRICE_ID = 'price_1Qn5vrRwAkKhSEhM28Lg4EEu';
-	const COACHING_CALL_PRICE_ID = 'price_1QiMRsRwAkKhSEhM8jAxQUK0';
+	const COACHING_CALL_PRICE_ID = 'price_1Qn5vrRwAkKhSEhM28Lg4EEu';
 
 	async function checkout() {
 		const stripe = await loadStripe(PUBLIC_STRIPE_KEY);
