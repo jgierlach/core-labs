@@ -74,13 +74,13 @@
 	<div class="max-w-4xl text-center">
 		<!-- Title -->
 		<h1 class="text-4xl font-bold leading-tight sm:text-5xl md:text-6xl">
-			🚀 Supercharge Your Business with Core Labs
+			🚀 Build and scale with proven strategies
 		</h1>
 
 		<!-- Subtitle -->
 		<p class="mt-6 text-lg text-gray-200 sm:text-xl">
-			We help entrepreneurs scale their online businesses using cutting-edge web development &
-			digital strategies.
+			We help business owners sell more, reduce costs, ship more, and stress less. No fluff. Just
+			results.
 		</p>
 
 		<!-- CTA Buttons -->
@@ -129,7 +129,8 @@
 			<p class="mx-auto max-w-3xl text-lg text-gray-600 sm:text-xl dark:text-gray-400">
 				Hello 👋, my name is <span class="font-semibold text-gray-800 dark:text-white"
 					>Jan-Edward</span
-				>. I am a fullstack developer and business owner. Over the past 3 years, I’ve generated
+				>. I am a fullstack developer and business owner. Over the past 3 years, with my business
+				parther and a talented team, we've generated
 				<span class="font-semibold text-gray-800 dark:text-white">$2.35 million</span> in revenue by
 				creating and scaling digital products and services.
 			</p>
@@ -185,8 +186,11 @@
 	class="bg-gradient-to-br from-gray-100 to-gray-200 py-20 dark:from-gray-900 dark:to-gray-800"
 >
 	<div class="container mx-auto px-6 text-center lg:px-12">
-		<h2 class="mb-12 text-5xl font-bold text-gray-900 dark:text-white">🚀 Our Businesses</h2>
+		<h2 class="mb-8 text-5xl font-bold text-gray-900 dark:text-white">🚀 Our Businesses</h2>
 
+		<p class="mb-12 text-2xl text-gray-700 dark:text-gray-300">
+			We've founded and operate the following businesses.
+		</p>
 		<!-- Business Cards Grid -->
 		<div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
 			<!-- Business Card -->
