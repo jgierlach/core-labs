@@ -43,7 +43,7 @@ export async function POST({ request, locals }) {
     <!-- Header -->
     <tr>
       <td style="background-color: #4f46e5; padding: 20px; text-align: center;">
-        <h1 style="color: #FFFFFF; font-size: 24px; margin: 0;">1 Hour Coaching Call Confrimed!</h1>
+        <h1 style="color: #FFFFFF; font-size: 24px; margin: 0;">1 Hour Coaching Call Confirmed!</h1>
       </td>
     </tr>
     <!-- Body -->
